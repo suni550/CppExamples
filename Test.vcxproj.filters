@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\OOPS_Concepts">
+      <UniqueIdentifier>{d2e0b5a3-7108-4434-8eb6-ffa93f6ad473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OOPS_Concepts\Inheritance">
+      <UniqueIdentifier>{2a51abbb-e80f-43bb-b85d-3190ace2df6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OOPS_Concepts\Polymorphism">
+      <UniqueIdentifier>{d0a43c77-8adc-4f84-8d15-dbfd715d12df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassRelated">
+      <UniqueIdentifier>{c6089b42-b1da-4137-a8d0-5156b1dba944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OOPS_Concepts\VirtualDestructor">
+      <UniqueIdentifier>{a40300f2-1e13-453d-ba60-f1ae6fc87a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OOPS_Concepts\DynamicBinding">
+      <UniqueIdentifier>{7fdcc9a1-88be-4464-90cd-b42c6aedd0a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassRelated\Inline">
+      <UniqueIdentifier>{91c78999-06e6-4856-8a36-94baa92011f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassRelated\OperatorOverloading">
+      <UniqueIdentifier>{72fce1e1-b4df-4ff9-9c57-74590386eca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassRelated\OperatorOverloading\PrefixAndPostfixOperator">
+      <UniqueIdentifier>{ca9fa131-7024-4f08-98dd-f61a0d368060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassRelated\StaticMember">
+      <UniqueIdentifier>{9499f00b-57e5-44eb-b28b-e5863b845ce0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassRelated\OperatorOverloading\AdditionOperator">
+      <UniqueIdentifier>{06e8b25a-963a-4b94-b2ca-d2967bce8dd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\OOPS_Concepts\Inheritance\ArrayOfDerivedClasses">
+      <UniqueIdentifier>{25b72831-0537-4797-b4d2-3d625d27b022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassRelated\OperatorOverloading\MultiplicationOperator">
+      <UniqueIdentifier>{97628a96-b938-4f1f-8062-63f181332cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\STL">
+      <UniqueIdentifier>{c18852a3-71e6-450d-9e0a-80e9e7a3a0ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ClassRelated\Recursion">
+      <UniqueIdentifier>{1d15f1e3-70b0-4a92-b08d-8321581ace5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceFiles\ClassRelated\CompilerGenFunctions.cpp">
+      <Filter>Source Files\ClassRelated</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\Constant.cpp">
+      <Filter>Source Files\ClassRelated</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\DataFrame.cpp">
+      <Filter>Source Files\ClassRelated</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\DataQueue.cpp">
+      <Filter>Source Files\ClassRelated</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\OOPS_Concepts\VirtualDestructor\VirtualDctor_BaseClass.cpp">
+      <Filter>Source Files\OOPS_Concepts\VirtualDestructor</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\OOPS_Concepts\VirtualDestructor\VirtualDctor_DeriveClass.cpp">
+      <Filter>Source Files\OOPS_Concepts\VirtualDestructor</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\OOPS_Concepts\DynamicBinding\DynamicBinding_BaseClass.cpp">
+      <Filter>Source Files\OOPS_Concepts\DynamicBinding</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\OOPS_Concepts\DynamicBinding\DynamicBinding_DerivedClass.cpp">
+      <Filter>Source Files\OOPS_Concepts\DynamicBinding</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\Inline\InlineClass.cpp">
+      <Filter>Source Files\ClassRelated\Inline</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\OperatorOverloading\PrefixAndPostfixOperator\PrefixAndPostfixOperator.cpp">
+      <Filter>Source Files\ClassRelated\OperatorOverloading\PrefixAndPostfixOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\OperatorOverloading\AdditionOperator\AdditionOperator.cpp">
+      <Filter>Source Files\ClassRelated\OperatorOverloading\AdditionOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\OOPS_Concepts\Inheritance\ArrayOfDerivedClasses\ArrayOfDerivedClasses.cpp">
+      <Filter>Source Files\OOPS_Concepts\Inheritance\ArrayOfDerivedClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\OOPS_Concepts\Inheritance\ArrayOfDerivedClasses\BaseForArrayOfDerivedClass.cpp">
+      <Filter>Source Files\OOPS_Concepts\Inheritance\ArrayOfDerivedClasses</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\StaticMember\ObjectsInHeap.cpp">
+      <Filter>Source Files\ClassRelated\StaticMember</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\StaticMember\StaticMember.cpp">
+      <Filter>Source Files\ClassRelated\StaticMember</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\OperatorOverloading\Multiplication\MutliplicationOperator.cpp">
+      <Filter>Source Files\ClassRelated\OperatorOverloading\MultiplicationOperator</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\STL\Stl.cpp">
+      <Filter>Source Files\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceFiles\ClassRelated\Recursion\Recursion.cpp">
+      <Filter>Source Files\ClassRelated\Recursion</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceFiles\ClassRelated\CompilerGenFunctions.h">
+      <Filter>Source Files\ClassRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\Constant.h">
+      <Filter>Source Files\ClassRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\DataFrame.h">
+      <Filter>Source Files\ClassRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\DataQueue.h">
+      <Filter>Source Files\ClassRelated</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\OOPS_Concepts\VirtualDestructor\VirtualDctor_BaseClass.h">
+      <Filter>Source Files\OOPS_Concepts\VirtualDestructor</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\OOPS_Concepts\VirtualDestructor\VirtualDctor_DeriveClass.h">
+      <Filter>Source Files\OOPS_Concepts\VirtualDestructor</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\OOPS_Concepts\DynamicBinding\DynamicBinding_BaseClass.h">
+      <Filter>Source Files\OOPS_Concepts\DynamicBinding</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\OOPS_Concepts\DynamicBinding\DynamicBinding_DerivedClass.h">
+      <Filter>Source Files\OOPS_Concepts\DynamicBinding</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\Inline\InlineClass.h">
+      <Filter>Source Files\ClassRelated\Inline</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\OperatorOverloading\PrefixAndPostfixOperator\PrefixAndPostfixOperator.h">
+      <Filter>Source Files\ClassRelated\OperatorOverloading\PrefixAndPostfixOperator</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\OperatorOverloading\AdditionOperator\AdditionOperator.h">
+      <Filter>Source Files\ClassRelated\OperatorOverloading\AdditionOperator</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\OOPS_Concepts\Inheritance\ArrayOfDerivedClasses\ArrayOfDerivedClasses.h">
+      <Filter>Source Files\OOPS_Concepts\Inheritance\ArrayOfDerivedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\OOPS_Concepts\Inheritance\ArrayOfDerivedClasses\BaseForArrayOfDerivedClass.h">
+      <Filter>Source Files\OOPS_Concepts\Inheritance\ArrayOfDerivedClasses</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\StaticMember\ObjectsInHeap.h">
+      <Filter>Source Files\ClassRelated\StaticMember</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\StaticMember\StaticMember.h">
+      <Filter>Source Files\ClassRelated\StaticMember</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\OperatorOverloading\Multiplication\MutliplicationOperator.h">
+      <Filter>Source Files\ClassRelated\OperatorOverloading\MultiplicationOperator</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\STL\Stl.h">
+      <Filter>Source Files\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceFiles\ClassRelated\Recursion\Recursion.h">
+      <Filter>Source Files\ClassRelated\Recursion</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
